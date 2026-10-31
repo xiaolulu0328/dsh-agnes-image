@@ -1,7 +1,7 @@
 {
-  "name": "@local/dsh-agnes-image",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@xiaolulu0328/dsh-agnes-image",
+  "version": "0.1.1",
+  "private": false,
   "description": "Agnes Image 2.5 Flash image generation/editing tool with a masked local API key setting",
   "type": "module",
   "main": "index.js",

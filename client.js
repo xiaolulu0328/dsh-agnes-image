@@ -9,7 +9,7 @@
  * 所以这里只能「写」不能「读回」；输入框为 password，且始终不回显已保存的值。
  */
 window.__ModuleLoader__.load({
-  id: '@local/dsh-agnes-image',
+  id: '@xiaolulu0328/dsh-agnes-image',
   factory(require) {
     const React = require('react')
     const h = React.createElement
@@ -162,7 +162,7 @@ window.__ModuleLoader__.load({
         const snapshot = mirror && typeof mirror.getSnapshot === 'function' ? mirror.getSnapshot() : undefined
         const namespaces = (snapshot && snapshot.view && snapshot.view.namespaces) || []
         const ids = namespaces.map((entry) => entry && entry.ns).filter((ns) => typeof ns === 'string')
-        const wanted = ['include:agnes-image', 'agnes-image', '@local/dsh-agnes-image']
+        const wanted = ['include:agnes-image', 'agnes-image', '@xiaolulu0328/dsh-agnes-image']
         const hit =
           wanted.find((ns) => ids.includes(ns)) ||
           ids.find((ns) => ns.endsWith('/dsh-agnes-image')) ||
@@ -365,7 +365,7 @@ window.__ModuleLoader__.load({
         ctx.slots.register(
           {
             name: 'plugins.row.config',
-            key: '@local/dsh-agnes-image#agnes-image',
+            key: '@xiaolulu0328/dsh-agnes-image#agnes-image',
             locale: NS,
             order: 20,
           },
