@@ -1,0 +1,3 @@
+- insert:
+    - id: agnes-image
+      name: '@local/dsh-agnes-image'

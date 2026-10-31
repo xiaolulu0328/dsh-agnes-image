@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Agnes image tool">
+  <defs>
+    <linearGradient id="agnes-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b6ef2"/>
+      <stop offset="1" stop-color="#8b3ff2"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#agnes-bg)"/>
+  <circle cx="23" cy="25" r="5" fill="#ffe8a3"/>
+  <path d="M14 47l11-13 8 9 6-7 11 11z" fill="#ffffff" opacity=".95"/>
+  <path d="M46 14l1.8 4.4L52 20l-4.2 1.6L46 26l-1.8-4.4L40 20l4.2-1.6z" fill="#ffffff"/>
+</svg>
