@@ -15,7 +15,7 @@
 ## 安装
 
 ```powershell
-# 直接把本目录作为 bundle 安装（路径按实际位置调整）
+dsh plugin add @xiaolulu0328/dsh-agnes-image
 ```
 
 在 Harness 里用插件管理器安装本目录：
